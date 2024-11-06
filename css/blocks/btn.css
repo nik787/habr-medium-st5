@@ -1,0 +1,16 @@
+.btn {
+    background-color: transparent;
+    border: 1px solid #9E5FC4;
+    border-radius: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #9E5FC4;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.btn--accent {
+    background-color: #9E5FC4;
+    color: #fff;
+}

@@ -1,0 +1,12 @@
+.nav {
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;  
+}
