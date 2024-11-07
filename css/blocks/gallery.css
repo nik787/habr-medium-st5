@@ -42,6 +42,7 @@
 
 .gallery__image {
     margin-bottom: 5px;
+    border-radius: 8px;
 }
 
 .gallery__caption {
@@ -55,6 +56,7 @@
     min-width: 215px;
     padding: 25px 25px 20px;
     background-color: #fff;
+    border-radius: 16px;
 }
 
 .gallery__form {
@@ -67,8 +69,16 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .gallery__btn-form {
     margin-top: 9px;
 }
+
+.gallery__filter input[type="checkbox"]:checked + label {
+    font-weight: 700;
+    color: #9E5FC4;  
+  }
