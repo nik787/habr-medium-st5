@@ -29,3 +29,7 @@ ul {
 button {
   font-family: inherit;
 }
+
+svg {
+  flex-shrink: 0;
+}

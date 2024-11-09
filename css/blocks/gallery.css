@@ -52,33 +52,35 @@
     color: rgba(36, 36, 36, 0.5);
 }
 
-.gallery__filter {
+.gallery__aside {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     min-width: 215px;
     padding: 25px 25px 20px;
     background-color: #fff;
     border-radius: 16px;
 }
 
-.gallery__form {
+.gallery__side-list {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding: 0;
+    margin: 0;
 }
 
-.gallery__label {
+.gallery__side-link {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+    color: #242424;
 }
 
-.gallery__btn-form {
-    margin-top: 9px;
-}
-
-.gallery__filter input[type="checkbox"]:checked + label {
+.gallery__side-link--active {
     font-weight: 700;
-    color: #9E5FC4;  
-  }
+    color: #9E5FC4;
+}
